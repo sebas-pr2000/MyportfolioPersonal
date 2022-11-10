@@ -58,7 +58,7 @@ function NavBar() {
                         }
                         onClick={() => onUpdateActiveLink("home")}
                      >
-                        Home
+                        Inicio
                      </Nav.Link>
                      <Nav.Link
                         href="#skills"
@@ -69,7 +69,7 @@ function NavBar() {
                         }
                         onClick={() => onUpdateActiveLink("skills")}
                      >
-                        Skills
+                        Tecnologias
                      </Nav.Link>
                      <Nav.Link
                         href="#projects"
@@ -80,7 +80,7 @@ function NavBar() {
                         }
                         onClick={() => onUpdateActiveLink("projects")}
                      >
-                        Projects
+                        Proyectos
                      </Nav.Link>
                   </Nav>
                   <span className="navbar-text">
@@ -109,7 +109,7 @@ function NavBar() {
                      </div>
                      <HashLink to="#connect">
                         <button className="vvd">
-                           <span>Let’s Connect</span>
+                           <span>Contactar</span>
                         </button>
                      </HashLink>
                   </span>

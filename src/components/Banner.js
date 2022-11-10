@@ -60,9 +60,9 @@ export default function Banner() {
          <Container>
             <Row className="aligh-items-center">
                <Col xs={12} md={6} xl={7}>
-                  <span className="tagline">Welcome to my Portfolio</span>
+                  <span className="tagline">Bienvenido a Mi Portafolio</span>
                   <h1>
-                     {`Hi I'm Sebastian `}
+                     {`Hola Soy Sebastian `}
                      <span
                         className="txt-rotate"
                         dataPeriod="1000"
@@ -72,11 +72,9 @@ export default function Banner() {
                      </span>
                   </h1>
                   <p>
-                     Lorem Ipsum is simply dummy text of the printing and
-                     typesetting industry. Lorem Ipsum has been the industry's
-                     standard dummy text ever since the 1500s, when an unknown
-                     printer took a galley of type and scrambled it to make a
-                     type specimen book.
+                     Este es mi Portafolio Personal donde Enseño mis Proyectos y
+                     las Tecnologías que domino y uso Dia a Dia, Si Te Interesan
+                     mis servicios Puedes Contactarme.
                   </p>
                   <button
                      onClick={() => {

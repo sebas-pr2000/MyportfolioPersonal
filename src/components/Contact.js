@@ -34,7 +34,7 @@ function Contact() {
                   <img src={contactImg} alt="Contact Us" />
                </Col>
                <Col md={6}>
-                  <h2>Get in Touch</h2>
+                  <h2>Ponerse en Contacto</h2>
                   <form
                      action="https://formsubmit.co/sebaslkjh@gmail.com"
                      method="POST"
@@ -45,8 +45,8 @@ function Contact() {
                            <input
                               type="text"
                               //   value={formDetails.firstName}
-                              placeholder="Name"
-                              name="Name"
+                              placeholder="Nombre"
+                              name="Nombre"
                               //   onChange={(e) =>
                               //      onFormUpdate("firstName", e.target.value)
                               //   }
@@ -78,20 +78,20 @@ function Contact() {
                            <textarea
                               rows="6"
                               //   value={formDetails.message}
-                              placeholder="Message"
-                              name="Message"
+                              placeholder="Mensaje"
+                              name="Mensaje"
                               //   onChange={(e) =>
                               //      onFormUpdate("message", e.target.value)
                               //   }
                            />
                            <button type="submit">
-                              <span>Send</span>
+                              <span>Enviar</span>
                            </button>
                            <input type="hidden" name="_captcha" value="false" />
                            <input
                               type="hidden"
                               name="_next"
-                              value="http://localhost:3000/"
+                              value="https://sebastian-portafolio-dev.vercel.app/"
                            />
                         </Col>
                         {/* {status.message && (

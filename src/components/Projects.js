@@ -46,11 +46,8 @@ function Projects() {
          <Container>
             <Row>
                <Col>
-                  <h2>Projects</h2>
-                  <p>
-                     Lorem Ipsum is simply dummy text of the printing and
-                     typesetting industry.
-                  </p>
+                  <h2>PROYECTOS </h2>
+                  <p>Proyectos que he Realizado:</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      <Nav
                         variant="pills"
