@@ -74,7 +74,7 @@ export default function Banner() {
                   <p>
                      Este es mi Portafolio Personal donde Enseño mis Proyectos y
                      las Tecnologías que domino y uso Dia a Dia, Si Te Interesan
-                     mis servicios Puedes Contactarme.
+                     mis Servicios Puedes Contactarme.
                   </p>
                   <button
                      onClick={() => {
