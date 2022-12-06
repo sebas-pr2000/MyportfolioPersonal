@@ -353,6 +353,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
    border-right: 0.08em solid #666;
 }
 
+.BtnDownload {
+   text-decoration: none;
+   color: #fff;
+}
+
+.BtnDownload:hover {
+   color: #61bffb;
+}
 /************ Skills Css ************/
 
 .skill {
@@ -494,6 +502,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-txtx {
    position: absolute;
+   display: flex;
+   flex-direction: column;
    text-align: center;
    top: 65%;
    left: 50%;
@@ -525,6 +535,79 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
    width: 35%;
    right: 0;
    z-index: -4;
+}
+
+.social-icon-projects {
+   display: flex;
+   margin-top: 8px;
+   justify-content: center;
+   margin-left: 14px;
+}
+
+.social-icon-projects a {
+   width: 38px;
+   height: 38px;
+   background: rgba(217, 217, 217, 0.1);
+   display: inline-flex;
+   border-radius: 50%;
+   margin-right: 8px;
+   align-items: center;
+   justify-content: center;
+   line-height: 1;
+   border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.social-icon-projects a:hover::before {
+   transform: scale(1);
+}
+.social-icon-projects a img {
+   width: 40%;
+   z-index: 1;
+   transition: 0.3s ease-in-out;
+}
+/* Giy Hub */
+.social-icon-projects .github-icon::before {
+   content: "";
+   width: 38px;
+   height: 38px;
+   position: absolute;
+   background-color: #171515;
+   border-radius: 50%;
+   transform: scale(0);
+   transition: 0.3s ease-in-out;
+}
+
+.social-icon-projects a .github-icon {
+   width: 60%;
+   z-index: 1;
+   transition: 0.3s ease-in-out;
+}
+/* Linked */
+.social-icon-projects a:hover .linkedin-img {
+   filter: brightness(100%) saturate(100%) invert(0%) sepia(7%) saturate(98%)
+      hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+.social-icon-projects .deploy-icon::before {
+   content: "";
+   width: 38px;
+   height: 38px;
+   position: absolute;
+   background-color: #61bffb;
+   border-radius: 50%;
+   transform: scale(0);
+   transition: 0.3s ease-in-out;
+}
+
+.social-icon-projects a .deploy-icon {
+   width: 68%;
+   z-index: 1;
+   transition: 0.3s ease-in-out;
+}
+/* Linked */
+.social-icon-projects a:hover .linkedin-img {
+   filter: brightness(100%) saturate(100%) invert(0%) sepia(7%) saturate(98%)
+      hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
 /************ Contact Css ************/
