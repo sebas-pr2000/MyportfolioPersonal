@@ -41,9 +41,9 @@ function NavBar() {
          {/* // condicional del estado */}
          <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
             <Container>
-               <Navbar.Brand href="/">
+               {/* <Navbar.Brand href="/">
                   <img src={logo} alt="LOGO" />
-               </Navbar.Brand>
+               </Navbar.Brand> */}
                <Navbar.Toggle aria-controls="basic-navbar-nav">
                   <span className="navbar-toggler-icon"></span>
                </Navbar.Toggle>
@@ -69,7 +69,7 @@ function NavBar() {
                         }
                         onClick={() => onUpdateActiveLink("skills")}
                      >
-                        Tecnologias
+                        Tecnología
                      </Nav.Link>
                      <Nav.Link
                         href="#projects"
