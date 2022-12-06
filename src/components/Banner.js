@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { ArrowRightCircle, ArrowDownCircle } from "react-bootstrap-icons";
 import React from "react";
 import headerImg from "../assets/img/header-img.svg";
 // import "animate.css";
@@ -76,13 +76,15 @@ export default function Banner() {
                      las Tecnologías que domino y uso Dia a Dia, Si Te Interesan
                      mis Servicios Puedes Contactarme.
                   </p>
-                  <button
-                     onClick={() => {
-                        console.log("connect");
-                     }}
-                  >
-                     Let's Connect
-                     <ArrowRightCircle size={25} />
+                  <button>
+                     <a
+                        className="BtnDownload"
+                        href="./CV Sebastian Prado Escobar.pdf"
+                        download
+                     >
+                        Descargar CV
+                     </a>
+                     <ArrowDownCircle size={25} />
                   </button>
                </Col>
                <Col xs={12} md={6} xl={5}>
