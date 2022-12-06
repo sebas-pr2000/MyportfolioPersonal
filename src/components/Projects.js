@@ -4,21 +4,34 @@ import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // imagenes Proyectos
 
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import countryApp from "../assets/img/Proyectos/countryApp.png";
+import cioClothesAl from "../assets/img/Proyectos/CioClothes D.png";
+import hypeShop from "../assets/img/Proyectos/HypeShop.png";
+
 import projImg3 from "../assets/img/project-img3.png";
 
 function Projects() {
    const projects = [
       {
-         title: "Business Startup",
-         description: "Design & Development",
-         imgUrl: projImg1,
+         title: "Country APP",
+         description: "Proyecto Individual",
+         imgUrl: countryApp,
+         gitHub:
+            "https://github.com/sebas-pr2000/PI-countries/tree/main/PI-Countries-main",
       },
       {
-         title: "Business Startup",
-         description: "Design & Development",
-         imgUrl: projImg2,
+         title: "Cio Clothes",
+         description: "E-commerce De Ropa",
+         imgUrl: cioClothesAl,
+         gitHub: "https://github.com/MakoskiVictor/Ecommerce-API",
+         deploy: "https://cioclothes.vercel.app/",
+      },
+      {
+         title: "Hype Shop",
+         description: "E-commerce De Zapatillas",
+         imgUrl: hypeShop,
+         gitHub: "https://github.com/Littyfever/PF-Hype-Shop",
+         deploy: "https://hype-kappa.vercel.app/",
       },
       {
          title: "Business Startup",
@@ -28,12 +41,7 @@ function Projects() {
       {
          title: "Business Startup",
          description: "Design & Development",
-         imgUrl: projImg1,
-      },
-      {
-         title: "Business Startup",
-         description: "Design & Development",
-         imgUrl: projImg2,
+         imgUrl: projImg3,
       },
       {
          title: "Business Startup",
