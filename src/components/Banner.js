@@ -72,9 +72,10 @@ export default function Banner() {
                      </span>
                   </h1>
                   <p>
-                     Este es mi Portafolio Personal donde Enseño mis Proyectos y
-                     las Tecnologías que domino y uso Dia a Dia, Si Te Interesan
-                     mis Servicios Puedes Contactarme.
+                     Soy Fullstack Devoloper con Preferencia Al Área Front-End
+                     con Mucha Curiosidad y apasionado de la Tecnología. Este es
+                     mi Portafolio Personal donde Enseño mis Proyectos, Si Te
+                     Interesan mis Servicios Puedes Contactarme.
                   </p>
                   <button>
                      <a
