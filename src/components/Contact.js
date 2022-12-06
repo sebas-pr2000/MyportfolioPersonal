@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
+import Swal from "sweetalert2";
 
 function Contact() {
    //    const formInitialDetails = {
@@ -84,7 +85,16 @@ function Contact() {
                               //      onFormUpdate("message", e.target.value)
                               //   }
                            />
-                           <button type="submit">
+                           <button
+                              type="submit"
+                              onClick={() => {
+                                 Swal.fire(
+                                    "Mensaje Enviado!",
+                                    "Me pondré En Contacto Contigo Pronto!",
+                                    "success"
+                                 );
+                              }}
+                           >
                               <span>Enviar</span>
                            </button>
                            <input type="hidden" name="_captcha" value="false" />
