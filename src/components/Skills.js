@@ -43,8 +43,11 @@ function Skills() {
             <Row>
                <Col>
                   <div className="skill-bx">
-                     <h2>TECNOLOGIAS</h2>
-                     <p>Tecnologías que Domino:</p>
+                     <h2>Skills</h2>
+                     <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.
+                     </p>
                      <Carousel
                         responsive={responsive}
                         infinite={true}
