@@ -7,7 +7,9 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import countryApp from "../assets/img/Proyectos/countryApp.png";
 import cioClothesAl from "../assets/img/Proyectos/CioClothes D.png";
 import hypeShop from "../assets/img/Proyectos/HypeShop.png";
-
+import gitHubProfile from "../assets/img/Proyectos/proyectoGithubProfile.png";
+import batabit from "../assets/img/Proyectos/proyectoBatabit.png";
+import achoo from "../assets/img/Proyectos/proyectoAchoo.png";
 import projImg3 from "../assets/img/project-img3.png";
 
 function Projects() {
@@ -34,19 +36,24 @@ function Projects() {
          deploy: "https://hype-kappa.vercel.app/",
       },
       {
-         title: "Business Startup",
-         description: "Design & Development",
-         imgUrl: projImg3,
+         title: "Batabit",
+         description: "Maquetación Landing Page",
+         imgUrl: batabit,
+         gitHub: "https://github.com/sebas-pr2000/Batabit",
+         deploy: "http://batabit-pi.vercel.app/",
       },
       {
-         title: "Business Startup",
-         description: "Design & Development",
-         imgUrl: projImg3,
+         title: "Github Profile",
+         description: "Buscador de Perfiles GitHub",
+         imgUrl: gitHubProfile,
+         gitHub: "https://github.com/sebas-pr2000/GitHub-Profile",
       },
       {
-         title: "Business Startup",
-         description: "Design & Development",
-         imgUrl: projImg3,
+         title: "Achoo",
+         description: "Landing Page Achoo",
+         imgUrl: achoo,
+         gitHub: "https://github.com/sebas-pr2000/Landing-page-Achoo",
+         deploy: "https://landing-page-react-eta.vercel.app/",
       },
    ];
    return (
