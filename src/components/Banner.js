@@ -80,8 +80,8 @@ export default function Banner() {
                   <button>
                      <a
                         className="BtnDownload"
-                        href="./CV Sebastian Prado Escobar.pdf"
-                        download
+                        href="https://drive.google.com/file/d/1tefFJeC8yThjWAtSwwojE9QEQ1grQHwS/view?usp=share_link"
+                        target={"_blank"}
                      >
                         Descargar CV
                      </a>
